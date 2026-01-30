@@ -1,7 +1,11 @@
 Requirements:
+
 -Panoramic Image created from your VR task
+
 -Data in a csv format
+
 -Timestamps included in your data
+
 -Anaconda Python Development Environment
 
 Step 1 Panoramic Image
