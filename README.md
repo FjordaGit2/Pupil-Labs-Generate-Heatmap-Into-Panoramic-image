@@ -11,6 +11,10 @@ Requirements:
 Step 1 Panoramic Image
 Let's assume that we have created a task in VR and from this task we generated a panoramic image of the whole 3D environment. For this tutorial I created a task in Unity in VR and I generated from Unity a panoramic image. From the task I generated a panoramic image.
 
+![PanoramaSc1](https://github.com/user-attachments/assets/21b35ed1-6414-4b9a-9d3e-0bf3f4ddfca4)
+
+
+
 Step 2 Data
 Let's assume that we have pupil labs eye tracker and we collected a large volume of data from users eyes and we also have the panoramic image. We want now to generate the heatmap from fixations data. Heatmaps are generated during fixations.
 
@@ -21,3 +25,8 @@ To write a python script we need a platform. We can use Spyder although there ar
 
 Step 4 Generate heatmap into panoramic image from fixations data.
 Now we can write a python script that utilizes the norm_pos_x and norm_pos_y to generate the heatmap. IMPORTANT: The two lines of the code below: gaze_on_surf_x = dataGaze.norm_pos_x + 0.12 , gaze_on_surf_y = dataGaze.norm_pos_y + .15 Need to be changed according to the part of the image that was in front of the user in VR. Therefore you need to change those coordinates 0.12 and .15 to position the heatmap in the area or part of the image that was in front of the user in VR.
+
+<img width="1130" height="572" alt="panorama_heatmap" src="https://github.com/user-attachments/assets/650fade5-7a40-42bd-8480-182f962acee2" />
+
+For more tutorials you can check my portfolio: https://www.fjordakazazi.com/
+For building VR App and/or integrating with eye tracking and EEG check my course: https://www.udemy.com/course/build-complete-vr-app-in-unity-with-eye-tracking-eeg
